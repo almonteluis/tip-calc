@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <h1>Tip Calculator</h1>
+    <p>
+      This is a very basic tip calculator using HTML, CSS & Javascript
+    </p>
+    <form id="form1">
+      <label for="foodbill">Food cost:</label><br />
+      <input type="text" id="foodbill" name="foodbill" /><br />
+      <label for="tip">Tip %:</label><br />
+      <input type="text" id="tip" name="tip" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p id="billTotal">
+      Your total food bill with tip included is:
+      <span id="total"></span>
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
